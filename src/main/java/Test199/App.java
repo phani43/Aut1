@@ -32,7 +32,7 @@ public class App
 	 
 	 un.sendKeys("admin");					
      pw.sendKeys("lincoln");
-     //Thread.sleep(4000);
+     Thread.sleep(4000);
      
      driver.findElement(By.id("loginBtn")).click();
      Thread.sleep(4000);
