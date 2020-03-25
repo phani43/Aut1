@@ -36,5 +36,6 @@ public class App
      
      driver.findElement(By.id("loginBtn")).click();
      Thread.sleep(4000);
+     System.out.println("Success");
     }
 }
